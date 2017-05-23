@@ -7,15 +7,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { TreatmentsPageComponent } from './treatments-page/treatments-page.component';
-
-import { TreatmentsDataResolverService } from './treatments-data-resolver.service';
+import { AppointmentPageComponent } from './appointment-page/appointment-page.component';
 
 const appRoutes: Routes = [
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomePageComponent },
-  { path: 'treatments', component: TreatmentsPageComponent ,resolve:{
-    treatments:TreatmentsDataResolverService
-  }},
+  { path: 'treatments', component: TreatmentsPageComponent},
+  { path: 'book', component: AppointmentPageComponent}
 ];
 
 
@@ -23,7 +21,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomePageComponent,
-    TreatmentsPageComponent
+    TreatmentsPageComponent,
+    AppointmentPageComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +31,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     JsonpModule
   ],
-  providers: [TreatmentsDataResolverService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
