@@ -1,27 +1,6 @@
-<nav class="navbar navbar-default navbar-static-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8"
-        aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>      <a class="brand-name navbar-brand" routerLink="/" routerLinkActive="active"><strong>Dr.Sheila's</strong> <small>Homeopathy Clinic</small></a>      </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
-      <ul class="nav navbar-nav">
-        <li routerLink="/home" routerLinkActive="active"><a routerLink="/home" routerLinkActive="active">Home</a></li>
-        <li routerLink="/treatments" routerLinkActive="active"><a routerLink="/treatments" routerLinkActive="active">Treatments</a></li>
-        <li><a href="https://medium.com/@sheilaanilkumar/latest">Blog</a></li>
-        <li routerLink="/book" routerLinkActive="active"><a routerLink="/book" routerLinkActive="active">Book Appointment</a></li>
-
-      </ul>
-    </div>
-  </div>
-</nav>
-<div class="container">
-  <div class="row">
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <div class="col-md-12 ">
-          <router-outlet></router-outlet>
-        </div>
-      </div>
-    </div>
-  </div>
+<header>
+  <app-nav-bar class="main-header"></app-nav-bar>
+</header>
+<div class="main-content">
+    <router-outlet></router-outlet>
 </div>

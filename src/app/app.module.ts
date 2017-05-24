@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { TreatmentsPageComponent } from './treatments-page/treatments-page.component';
 import { AppointmentPageComponent } from './appointment-page/appointment-page.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 const appRoutes: Routes = [
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
@@ -22,7 +23,8 @@ const appRoutes: Routes = [
     AppComponent,
     HomePageComponent,
     TreatmentsPageComponent,
-    AppointmentPageComponent
+    AppointmentPageComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
