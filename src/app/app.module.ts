@@ -9,6 +9,9 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { TreatmentsPageComponent } from './treatments-page/treatments-page.component';
 import { AppointmentPageComponent } from './appointment-page/appointment-page.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { FooterComponent } from './footer/footer.component';
+
+import { ClinicInformationService } from './clinic-information.service';
 
 const appRoutes: Routes = [
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
@@ -24,7 +27,8 @@ const appRoutes: Routes = [
     HomePageComponent,
     TreatmentsPageComponent,
     AppointmentPageComponent,
-    NavBarComponent
+    NavBarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     JsonpModule
   ],
-  providers: [],
+  providers: [ClinicInformationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

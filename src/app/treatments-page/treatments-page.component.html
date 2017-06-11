@@ -1,4 +1,23 @@
 <div class="treatments-page-container">
-  <iframe class="treatments-page-content" src="https://docs.google.com/document/d/1m6cZnY-n_xQXc7NH8K5U41r7TQ1WHwFRYJ9KM5lV3lw/pub?embedded=true"
-    width="100%"></iframe>
+  <div class="main-container">
+  <div class="our-causes fadeIn animated">
+    <div class="container">
+      <h2 class="title-style-1">Our Treatments <span class="title-under"></span></h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-6" *ngFor="let treatment of treatments">
+          <div class="cause">
+            <h4 class="cause-title">{{treatment.domain}}</h4>
+            <div class="cause-details">
+              <ol>
+                <li *ngFor="let subtreatment of treatment.treatments">
+                  {{subtreatment}}
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
