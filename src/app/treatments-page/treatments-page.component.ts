@@ -11,6 +11,62 @@ export class TreatmentsPageComponent implements OnInit {
 
     this.treatments = [
       {
+        "domain": "LIVER COMPLAINTS, KIDNEY & INTESTINE", 
+        "treatments": [
+          "Bladder Problems",
+          "Cholecystitis Gallstones",
+          "Chronic Appendicitis",
+          "Excessive Protein in Urine",
+          "Fissure",
+          "Fistula",
+          "Intestinal Colic",
+          "Jaundice",
+          "Kidney Stone",
+          "Liver Cirrhosis",
+          "Liver Cyst & Calcification",
+          "Piles",
+          "Urinary Incontinence",
+          "Urinary Tract Infections",
+          "Vomiting"
+          ]
+      }, {
+        "domain": "WOMEN HEALTH CONDITIONS", 
+        "treatments": [
+          "Amenorrhea",
+          "Endometriosis",
+          "Fallopian Tube Complaints",
+          "Gynaec Sacroiliac Complaints",
+          "Infertility",
+          "Irregular Menstruation",
+          "Leucorrhoea",
+          "Menopausal Disorders",
+          "Menstrual Cramps",
+          "Ovarian Cyst",
+          "PCOS",
+          "Uterine Fibroid"
+        ]
+      }, {
+        "domain": "RESPIRATORY", 
+        "treatments": [
+          "Allergic Rhinitis",
+          "Asthma",
+          "Bronchitis",
+          "Cough",
+          "Pulmonary Respiratory Diseases",
+          "Voice Hoarseness"
+        ]
+
+      }, {
+        "domain": "STOMACH DISORDERS", 
+        "treatments": [
+          "Acidity",
+          "Constipation",
+          "Diarrhoea",
+          "Food Poisoning",
+          "IBS",
+          "Ulcers"
+        ]
+      }, {
         "domain": "HAIR",
         "treatments": [
           "Hair Fall",
