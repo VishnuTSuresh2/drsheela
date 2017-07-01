@@ -32,11 +32,11 @@ export class TreatmentsPageComponent implements OnInit {
       }, {
         "domain": "WOMEN HEALTH CONDITIONS", 
         "treatments": [
+          "Infertility",
           "Amenorrhea",
           "Endometriosis",
           "Fallopian Tube Complaints",
           "Gynaec Sacroiliac Complaints",
-          "Infertility",
           "Irregular Menstruation",
           "Leucorrhoea",
           "Menopausal Disorders",
@@ -55,8 +55,6 @@ export class TreatmentsPageComponent implements OnInit {
           "Pulmonary Respiratory Diseases",
           "Voice Hoarseness",
           "COPD",
-          "Cold",
-          "Cough",
           "Coryza",
           "Dyspnoea"
         ]
@@ -75,7 +73,8 @@ export class TreatmentsPageComponent implements OnInit {
           "Hyperacidity",
           "Heartburn",
           "Dyspepsia",
-          "Colic"
+          "Colic",
+          "Crohn's Disease"
         ]
       }, {
         "domain": "HAIR",
@@ -158,7 +157,7 @@ export class TreatmentsPageComponent implements OnInit {
           "Cramps & Numbness in Muscles",
           "Disc Prolapse",
           "Joint Pains",
-          "Pain Between Ribs",
+          "Pain between Ribs",
           "Sciatica"
         ]
       },
