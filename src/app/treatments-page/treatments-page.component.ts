@@ -53,7 +53,12 @@ export class TreatmentsPageComponent implements OnInit {
           "Bronchitis",
           "Cough",
           "Pulmonary Respiratory Diseases",
-          "Voice Hoarseness"
+          "Voice Hoarseness",
+          "COPD",
+          "Cold",
+          "Cough",
+          "Coryza",
+          "Dyspnoea"
         ]
 
       }, {
@@ -64,13 +69,20 @@ export class TreatmentsPageComponent implements OnInit {
           "Diarrhoea",
           "Food Poisoning",
           "IBS",
-          "Ulcers"
+          "Ulcers",
+          "Gastritis",
+          "Gastralgia",
+          "Hyperacidity",
+          "Heartburn",
+          "Dyspepsia",
+          "Colic"
         ]
       }, {
         "domain": "HAIR",
         "treatments": [
           "Hair Fall",
-          "Premature Graying"
+          "Premature Graying",
+          "Dandruff"
         ]
       },
       {
@@ -83,7 +95,14 @@ export class TreatmentsPageComponent implements OnInit {
           "Teething Problems",
           "Tonsillitis",
           "UTI",
-          "Worm Troubles"
+          "Worm Troubles",
+          "Anaemia",
+          "Abdominal Colic",
+          "Digestive Problems",
+          "Sleep Disorders",
+          "Allergic Sneezing",
+          "Dyspnoea, cold, cough, fever",
+          "Bronchial catarrh, sneezing"
         ]
       },
       {
@@ -115,9 +134,11 @@ export class TreatmentsPageComponent implements OnInit {
           "Cardiac Asthma",
           "Hyper Tension (High BP)",
           "Fatty Heart",
-          "Mitral & Lortic Regurgitation",
+          "Mitral & Aortic Regurgitation",
           "Myocardial Infarction",
-          "Myocarditis, Endocarditis & Pericarditis"
+          "Myocarditis, Endocarditis & Pericarditis",
+          "Rheumatic Endocarditis",
+          "After Bypass Management"
         ]
       },
       {
@@ -125,7 +146,7 @@ export class TreatmentsPageComponent implements OnInit {
         "treatments": [
           "Diabetes",
           "Sleep Disorders - a) Insomnia",
-          "Weight Loss"
+          "Weight Loss",
         ]
       },
       {
@@ -135,7 +156,7 @@ export class TreatmentsPageComponent implements OnInit {
           "Back Pain",
           "Bone Health",
           "Cramps & Numbness in Muscles",
-          "Disk Prolapse",
+          "Disc Prolapse",
           "Joint Pains",
           "Pain Between Ribs",
           "Sciatica"
@@ -144,7 +165,7 @@ export class TreatmentsPageComponent implements OnInit {
       {
         "domain": "OTHER SPECIAL CONDITIONS",
         "treatments": [
-          "All Contagious Diseases - Conjunctivitis, Chickenpox, Dengue Fever, Measles",
+          "All Contagious Diseases - Conjunctivitis, Chickenpox, Dengue Fever, Measles, Diphtheria, H1N1",
           "Anaemia",
           "Hernia",
           "Hyper Hydrosis",
